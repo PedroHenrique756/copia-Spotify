@@ -17,3 +17,6 @@ document.addEventListener('DOMContentLoaded', () => {
         {nome: 'Hit Me', artista: 'Billie Eilish',image:'images/album-hit-me.jpeg'},
         {nome: 'Tempo.zip', artista: 'Teto',image:'images/album-tempozip-teto.jpeg'},
     ]
+    //divs mapeadas
+    const artistaGrid = document.querySelector('.artistas-grid')
+    const albunsGrid = document.querySelector('.albuns-grid')
