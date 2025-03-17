@@ -20,3 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
     //divs mapeadas
     const artistaGrid = document.querySelector('.artistas-grid')
     const albunsGrid = document.querySelector('.albuns-grid')
+
+    //Um loop para criar todas as div
+    artistasData.forEach(artistas => {
+        const artistasCard = document.createElement(div)
+        artistasCard.classList.add('artistas-card')
