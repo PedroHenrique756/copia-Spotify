@@ -25,3 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
     artistasData.forEach(artistas => {
         const artistasCard = document.createElement(div)
         artistasCard.classList.add('artistas-card')
+
+        //adicionando elementos dentro da div
+        artistasCard.innerHTML = `
+            <img src="${artistas.image}">
+            <h3>${artistas.nome}</h3>
+            <p>artista</p>
+        `
