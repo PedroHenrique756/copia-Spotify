@@ -11,4 +11,69 @@ body{
 
 .sidebar{
     width: 300px;
+    background-color: #121212;
+    padding: 24px;
+    padding-bottom: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-logo i {
+    font-size: 24px;
+}
+
+.nav-library {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-library i, .nav-library p {
+    color: #B7B3B6;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav-playlist, .nav-podcast {
+    background-color: #242424;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.nav-playlist button, .nav-podcast button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 6px 10px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.nav-playlist p, .nav-podcast p {
+    font-size: 12px;
+}
+
+.nav-footer {
+    margin-top: auto;
+}
+
+.nav-footer a{
+    color: #a7a7a7;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 12px;
+    margin-bottom: 8px;
+}
+
+.nav-lenguage {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 8px 12px;
+    margin-top: 16px;
+    cursor: pointer;
+    border-radius: 20px;
 }
