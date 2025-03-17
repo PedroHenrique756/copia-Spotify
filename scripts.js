@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    //Imagens dos asrtistas
+    // Imagens dos artistas
     const artistasData = [
         {nome: 'Alee', image: 'images/artista-alee.jpeg'},
         {nome: 'Baco Exu', image:'images/artista-baco-exu.jpeg'},
@@ -7,28 +7,35 @@ document.addEventListener('DOMContentLoaded', () => {
         {nome: 'Matue', image:'images/artista-matue.jpeg'},
         {nome: 'Veigh', image:'images/artista-veigh.jpeg'},
         {nome: 'Wiu', image:'images/artista-wiu.jpeg'},
-    ]
-    //imagens dos albuns    
+    ];
+
+    // Imagens dos álbuns    
     const albumData = [
-        {nome: '333', artista: 'Matue',image: 'images/album-333.jpeg'},
-        {nome: '808 CLUB', artista: 'Wiu',image:'images/album-808-club.jpeg'},
-        {nome: 'Dos Predios', artista: 'Veigh',image:'images/album-dos-predios.jpeg'},
-        {nome: 'Escandalo', artista: 'Luíza Sonza',image:'images/album-escandalo.jpeg'},
-        {nome: 'Hit Me', artista: 'Billie Eilish',image:'images/album-hit-me.jpeg'},
-        {nome: 'Tempo.zip', artista: 'Teto',image:'images/album-tempozip-teto.jpeg'},
-    ]
-    //divs mapeadas
-    const artistaGrid = document.querySelector('.artistas-grid')
-    const albunsGrid = document.querySelector('.albuns-grid')
+        {nome: '333', artista: 'Matue', image: 'images/album-333.jpeg'},
+        {nome: '808 CLUB', artista: 'Wiu', image:'images/album-808-club.jpeg'},
+        {nome: 'Dos Predios', artista: 'Veigh', image:'images/album-dos-predios.jpeg'},
+        {nome: 'Escandalo', artista: 'Luíza Sonza', image:'images/album-escandalo.jpeg'},
+        {nome: 'Hit Me', artista: 'Billie Eilish', image:'images/album-hit-me.jpeg'},
+        {nome: 'Tempo.zip', artista: 'Teto', image:'images/album-tempozip-teto.jpeg'},
+    ];
 
-    //Um loop para criar todas as div
-    artistasData.forEach(artistas => {
-        const artistasCard = document.createElement(div)
-        artistasCard.classList.add('artistas-card')
+    // Divs mapeadas
+    const artistaGrid = document.querySelector('.artistas-grid');
+    const albunsGrid = document.querySelector('.albuns-grid');
 
-        //adicionando elementos dentro da div
+    // Um loop para criar todas as divs
+    artistasData.forEach(artista => {
+        const artistasCard = document.createElement('div');
+        artistasCard.classList.add('artistas-card');
+
+        // Adicionando elementos dentro da div
         artistasCard.innerHTML = `
-            <img src="${artistas.image}">
-            <h3>${artistas.nome}</h3>
-            <p>artista</p>
-        `
+            <img src="${artista.image}" alt="${artista.nome}">
+            <h3>${artista.nome}</h3>
+            <p>Artista</p>
+        `;
+
+        // Adicionando ao grid de artistas
+        artistaGrid.appendChild(artistasCard);
+    });
+});
