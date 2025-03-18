@@ -76,4 +76,26 @@ body{
     margin-top: 16px;
     cursor: pointer;
     border-radius: 20px;
+}main {
+    padding:24px;
+
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    background-color: #242424;
+    padding: 8px 16px;
+    border-radius: 20px;
+    width: 300px;
+
+}
+
+.search-bar input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    width: 100%;
+    margin-left: 10px;
+    outline: none
 }
