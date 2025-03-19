@@ -102,6 +102,11 @@ main {
     outline: none;
 }
 
-.artistas-grid{}
+.artistas-grid, .albuns-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 24px;
+    margin-bottom: 40px;
+}
 
 .albuns-grid{}
