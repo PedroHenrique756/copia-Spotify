@@ -59,7 +59,7 @@ body {
     margin-top: auto;
 }
 
-.nav-footer a{
+.nav-footer a {
     color: #a7a7a7;
     text-decoration: none;
     font-size: 12px;
@@ -78,8 +78,9 @@ body {
 }
 
 main {
-    padding:24px;
-
+    padding: 24px;
+    flex-grow: 1;
+    overflow-y: auto;
 }
 
 .search-bar{
