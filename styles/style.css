@@ -83,17 +83,16 @@ main {
     overflow-y: auto;
 }
 
-.search-bar{
+.search-bar {
     display: flex;
     align-items: center;
     background-color: #242424;
     padding: 8px 16px;
     border-radius: 20px;
     width: 300px;
-
 }
 
-.search-bar input{
+.search-bar input {
     background-color: transparent;
     border: none;
     color: #fff;
