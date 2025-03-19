@@ -117,3 +117,8 @@ main {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
+.artistas-card:hover, .album-card:hover{
+    background-color: #282828;
+    
+}
