@@ -109,4 +109,11 @@ main {
     margin-bottom: 40px;
 }
 
-.albuns-grid{}
+.artistas-card, .album-card{
+    background-color: #181818;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
