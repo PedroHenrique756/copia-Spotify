@@ -29,6 +29,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Adicionando elementos dentro da div
         artistasCard.innerHTML = `
             <img src="${artista.image}" alt="${artista.nome}">
+            <div>
+                <h3>${artista.nome}</h3>
+                <p>Artista</p>
+            </div>
         `;
 
         // Adicionando ao grid de artistas
@@ -42,8 +46,13 @@ document.addEventListener('DOMContentLoaded', () => {
         // Adicionando elementos dentro da div
         albumCard.innerHTML = `
             <img src="${album.image}" alt="${album.nome}">
+            <div>
+                <h3>${album.nome}</p>
+                <p>${album.artista}</p>
+            </div>
         `;
 
         albunsGrid.appendChild(albumCard);
     });
 });
+
