@@ -140,3 +140,8 @@ main {
 .artistas-card h3,.album-card h3 {
     font-size: 12px;
 }
+
+.artistas-card p,.album-card p {
+    font-size: 10px;
+    color: #B7B3B6;
+}
