@@ -166,3 +166,19 @@ main {
     padding: 8px 14px;
 }
 
+.banner h2 {
+    font-size: 14px;
+}
+
+.banner p {
+    font-size: 10px;
+}
+
+.banner button {
+    border-radius: 20px;
+    color: #000;
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
