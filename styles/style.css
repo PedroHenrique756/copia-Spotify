@@ -136,3 +136,7 @@ main {
 .artistas-card img{
     max-height: 70%;
 }
+
+.artistas-card h3,.album-card h3 {
+    font-size: 12px;
+}
