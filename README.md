@@ -10,8 +10,8 @@
 <p>4. Navegação entre diferentes seções da aplicação</p>
 
 <h1>🚀 Tecnologias usadas</h1>
-<p>- HTML</p>
-<p>- CSS</p>
+<p>- HTML5</p>
+<p>- CSS3</p>
 <p>- JavaScript</p>
 
 <h1>Deploy</h1>
