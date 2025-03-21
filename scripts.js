@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
         {nome: 'Jorge & Mateus', image:'images/artista-jorge-mateus.jpg'},
         {nome: 'Matue', image:'images/artista-matue.jpeg'},
         {nome: 'Veigh', image:'images/artista-veigh.jpeg'},
-        {nome: 'Wiu', image:'images/artista-wiu.jpeg'},
     ];
 
     // Imagens dos álbuns    
@@ -14,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
         {nome: '333', artista: 'Matue', image: 'images/album-333.jpeg'},
         {nome: '808 CLUB', artista: 'Wiu', image:'images/album-808-club.jpeg'},
         {nome: 'Dos Predios', artista: 'Veigh', image:'images/album-dos-predios.jpeg'},
-        {nome: 'Escandalo', artista: 'Luíza Sonza', image:'images/album-escandalo.jpg'},
         {nome: 'Hit Me', artista: 'Billie Eilish', image:'images/album-hit-me.jpg'},
         {nome: 'Tempo.zip', artista: 'Teto', image:'images/album-tempozip-teto.jpeg'},
     ];
@@ -31,8 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Adicionando elementos dentro da div
         artistasCard.innerHTML = `
             <img src="${artista.image}" alt="${artista.nome}">
-            <h3>${artista.nome}</h3>
-            <p>Artista</p>
         `;
 
         // Adicionando ao grid de artistas
@@ -46,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
         // Adicionando elementos dentro da div
         albumCard.innerHTML = `
             <img src="${album.image}" alt="${album.nome}">
-            <p>${album.nome}</p>
         `;
 
         albunsGrid.appendChild(albumCard);
