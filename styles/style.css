@@ -145,3 +145,24 @@ main {
     font-size: 10px;
     color: #B7B3B6;
 }
+
+.content {
+    margin-top: 40px;
+}
+
+.content h2{
+    margin-bottom: 10px;
+}
+
+.banner {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(90deg, #AF2896, #509BF5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 14px;
+}
+
