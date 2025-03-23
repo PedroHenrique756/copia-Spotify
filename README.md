@@ -18,6 +18,10 @@
 https://github.com/seu-usuario/spotify-clone
 
 
+![copia-spotify](images/Deploy.png)
+
+
 <h1>Autor</h1>
-<p>Pedro Henrique Gudes de Araujo</p>
+<p>Pedro Henrique Guedes de Araujo</p>
+
 
